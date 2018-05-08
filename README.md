@@ -1,4 +1,4 @@
-# bitcoinpages.io block explorer
+# bitcoinpages.io block explorer
 
 A simple minimalist block explorer written in NodeJS and ReactJS.
 
@@ -49,3 +49,4 @@ pm2 start app.js
 - some paginations
 - server have to be completed for switching beetwen currencies/chains
 - tests! tests! tests!
+- publish running server
