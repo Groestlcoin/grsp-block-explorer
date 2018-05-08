@@ -1,0 +1,35 @@
+{
+  "name": "btcp-block-explorer-client",
+  "version": "0.1.0",
+  "homepage" : "http://explorer.bitcoinpages.io/",
+  "description": "A minimalist blockchain explorer",
+  "license" : "GPL-3.0",
+  "author": "Emmanuel Florent (https://github.com/emmanuel-florent)",
+  "dependencies": {
+    "@chevtek/react-spinners": "^1.0.5",
+    "axios": "^0.18.0",
+    "bootstrap": "^4.1.1",
+    "open-iconic": "^1.1.1",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "react-router": "^4.2.0",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "1.1.4",
+    "react-timeago": "^4.1.9",
+    "reactstrap": "^6.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "lint": "./node_modules/.bin/eslint src",
+    "lint-fixup": "./node_modules/.bin/eslint src --ext .js,.jsx --fix"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-plugin-babel": "^5.1.0",
+    "eslint-plugin-react": "^7.7.0",
+    "react-open-iconic-svg": "^2.0.0"
+  }
+}

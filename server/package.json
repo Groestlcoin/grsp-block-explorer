@@ -1,0 +1,23 @@
+{
+  "name": "btcp-block-explorer-server",
+  "version": "1.0.0",
+  "description": "A minimalist blockchain explorer",
+  "license" : "GPL-3.0",
+  "author": "Emmanuel Florent (https://github.com/emmanuel-florent)",
+  "main": "app.js",
+  "homepage" : "http://explorer.bitcoinpages.io/",
+  "scripts": {
+    "dev": "export NODE_ENV=development && ./node_modules/nodemon/bin/nodemon.js app.js"
+  },
+  "author": "Emmanuel Florent <e.florent@gmail.com>",
+  "license": "AGPLv3",
+  "dependencies": {
+    "async": "^2.6.0",
+    "electrum-client": "0.0.6",
+    "express": "^4.16.3",
+    "request": "^2.85.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.3"
+  }
+}
