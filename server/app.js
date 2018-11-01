@@ -63,5 +63,5 @@ app.get('/btct/*/*', function (req, res) {
 //});
 
 app.listen(3000, function () {
-  console.log('btcp-block-explorer, server listening on port 3000!')
+  console.log('grsp-block-explorer, server listening on port 3000!')
 })

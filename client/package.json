@@ -1,7 +1,7 @@
 {
-  "name": "btcp-block-explorer-client",
+  "name": "grsp-block-explorer-client",
   "version": "0.1.0",
-  "homepage" : "http://explorer.bitcoinpages.io/",
+  "homepage" : "https://www.groestlcoin.org",
   "description": "A minimalist blockchain explorer",
   "license" : "GPL-3.0",
   "author": "Emmanuel Florent (https://github.com/emmanuel-florent)",

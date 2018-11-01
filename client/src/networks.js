@@ -19,10 +19,10 @@
 */
 const networks = [
   {
-    'apiRoot': 'http://localhost:3000/btct',
-    'ticker' : 'TBTC',
-    'name': 'testnet bitcoin',
-    'symbol': 'test฿'
+    'apiRoot': 'http://localhost:3000/grs',
+    'ticker' : 'GRS',
+    'name': 'Groestlcoin',
+    'symbol': '&#484;'
   }
   /*
   , {
